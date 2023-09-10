@@ -47,7 +47,7 @@ updateUTCTime();
 setInterval(updateUTCTime, 1000);
 
 /* github...*/
-const anchorTag = document.querySelector("myLink");
+const anchorTag = document.querySelector("testid");
 anchorTag.addEventListener("click", function () {
-  window.open("https://github.com/Phauziyah/Hng-task1-project.git", "_blank");
+  window.open("https://github.com/Phauziyah/task1-hng.git", "_blank");
 });
