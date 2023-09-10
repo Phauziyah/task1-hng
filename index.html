@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Personal Portfolio Website</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo1.png" class="logo" alt="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#date">Date</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <h1
+            id="myElement"
+            data-testid="slackUserName"
+            data-text="I'm Phauziyah on Slack"
+          >
+            Hi,I'm <span>Gbagba Kehinde</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!---about-->
+    <div id="about">
+      <div class="row">
+        <div class="about-col-1">
+          <img
+            id="myPic"
+            data-testid="slackDisplayImage"
+            src="images/display-pic.png"
+            alt="Phauziyah"
+          />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <h2
+            id="mySlack"
+            data-testid="myTrack"
+            data-text="My Hng track is Frontend"
+          >
+            I'm <span>Developer</span>
+          </h2>
+          <h1>Current Date</h1>
+          <p id="myDay" data-testid="currentDayOfTheWeek">Today is</p>
+          <p id="myTime" data-testid="currentUTCTime">
+            The current UTC time is
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <h3>&copy; 2023 Phauziyah</h3>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
