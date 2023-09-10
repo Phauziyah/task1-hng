@@ -3,7 +3,7 @@ const element = document.getElementById("myElement");
 console.log(element);
 const new_text = element.dataset.text;
 element.addEventListener("click", function (e) {
-  console.log("keydown");
+  console.log("click");
   if (element.dataset.testid === "slackUserName") {
     element.innerHTML = element.dataset.text;
   }
@@ -45,3 +45,9 @@ function updateUTCTime() {
 }
 updateUTCTime();
 setInterval(updateUTCTime, 1000);
+
+/* github...*/
+const anchorTag = document.querySelector("myLink");
+anchorTag.addEventListener("click", function () {
+  window.open("https://github.com/Phauziyah/Hng-task1-project.git", "_blank");
+});
